@@ -190,7 +190,11 @@ export default function Home() {
               <a href="mailto:hello@operaflyerp.com?subject=Operafy%20ERP%20demo" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg bg-[#1769aa] px-5 text-sm font-semibold text-white shadow-[0_8px_20px_rgba(23,105,170,0.2)] transition-colors hover:bg-[#12588f]">
                 Request a local demo <ArrowRight size={16} />
               </a>
-              <a href="#why-operafy" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg border border-[#d8ded6] bg-white/75 px-5 text-sm font-semibold text-[#405047] transition-colors hover:bg-white">
+              
+<a
+  href="mailto:mohammadjissankharadi@gmail.com?subject=Operafy%20ERP%20Demo&body=Hello%2C%0D%0A%0D%0AI%20am%20interested%20in%20a%20demo%20of%20Operafy%20ERP.%0D%0APlease%20share%20more%20details%20about%20the%20software.%0D%0A%0D%0AThank%20you."
+  className="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg bg-[#1769aa] px-5 text-sm font-semibold text-white transition-colors hover:bg-[#12588f]"
+>
                 Explore Operafy <ArrowDownRight size={16} />
               </a>
             </div>
@@ -225,7 +229,11 @@ export default function Home() {
           <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-[#b0783d]">Why Operafy Offline ERP?</p>
           <h2 className="font-display mt-4 text-3xl font-semibold leading-tight sm:text-[40px]">The essentials of your business, on your terms.</h2>
           <p className="mt-4 text-sm leading-6 text-[#6a776d]">No cloud dependency between your team and the work. Operafy is installed on your Windows PC or local office server, so your daily operations stay close, quick and in your control.</p>
-          <a href="#offline-first" className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[#1769aa] hover:text-[#12588f]">See how Operafy works <ArrowRight size={15} /></a>
+          
+<a
+  href="mailto:mohammadjissankharadi@gmail.com?subject=Operafy%20ERP%20Demo&body=Hello%2C%0D%0A%0D%0AI%20am%20interested%20in%20a%20demo%20of%20Operafy%20ERP.%0D%0APlease%20share%20more%20details%20about%20the%20software.%0D%0A%0D%0AThank%20you."
+  className="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg bg-[#1769aa] px-5 text-sm font-semibold text-white transition-colors hover:bg-[#12588f]"
+>See how Operafy works <ArrowRight size={15} /></a>
         </div>
         <div className="grid grid-cols-1 gap-x-8 sm:grid-cols-2">
           {capabilities.map(({ number, icon: Icon, title, description, label, tone }) => (
