@@ -1,26 +1,56 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --operafy-ink: #1b3044;
+    --operafy-blue: #1769aa;
+    --operafy-paper: #fbfcf9;
+  }
+
+  body {
+    font-family: var(--font-inter), sans-serif;
+    background: var(--operafy-paper);
+    color: var(--operafy-ink);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-poppins), sans-serif;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.font-display {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+.hero-wash {
+  background:
+    radial-gradient(ellipse at 78% 10%, rgba(211, 232, 248, 0.72), transparent 34%),
+    linear-gradient(150deg, #fbfcf9 8%, #f0f6fa 58%, #f7f7f1 100%);
+}
+
+.hero-grid {
+  background-image: linear-gradient(to right, rgba(27, 48, 68, 0.035) 1px, transparent 1px), linear-gradient(to bottom, rgba(27, 48, 68, 0.035) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: linear-gradient(to bottom, black, transparent 82%);
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-rise {
+  animation: rise-in 650ms ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-rise {
+    animation: none;
+  }
 }
