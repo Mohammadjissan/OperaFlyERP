@@ -24,7 +24,11 @@ export default function Footer() {
         <div>
           <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#839087]">Talk to our team</p>
           <p className="mt-4 text-[13px] leading-6 text-[#748077]">See billing, inventory and accounting running on your local system.</p>
-          <a href="mailto:hello@operaflyerp.com?subject=Operafy%20ERP%20demo" className="mt-3 inline-flex items-center gap-1.5 text-[13px] font-semibold text-[#1769aa] hover:text-[#12588f]">Request a demo <ArrowRight size={14} /></a>
+          
+<a
+  href="mailto:mohammadjissankharadi@gmail.com?subject=Operafy%20ERP%20Demo&body=Hello%2C%0D%0A%0D%0AI%20am%20interested%20in%20a%20demo%20of%20Operafy%20ERP.%0D%0APlease%20share%20more%20details%20about%20the%20software.%0D%0A%0D%0AThank%20you."
+  className="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg bg-[#1769aa] px-5 text-sm font-semibold text-white transition-colors hover:bg-[#12588f]"
+>Request a demo <ArrowRight size={14} /></a>
         </div>
       </div>
       <div className="border-t border-[#e1e8ed]">
