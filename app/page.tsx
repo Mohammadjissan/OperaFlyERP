@@ -269,7 +269,11 @@ export default function Home() {
             <h2 className="font-display mt-3 text-2xl font-semibold sm:text-3xl">See your business run on Operafy.</h2>
             <p className="mt-2 text-sm leading-6 text-[#6a776d]">Request a local demo and walk through billing, inventory and accounting with your team.</p>
           </div>
-          <a href="mailto:hello@operaflyerp.com?subject=Operafy%20ERP%20demo" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg bg-[#1769aa] px-5 text-sm font-semibold text-white transition-colors hover:bg-[#12588f]">Request a demo <ArrowRight size={16} /></a>
+          
+<a
+  href="mailto:mohammadjissankharadi@gmail.com?subject=Operafy%20ERP%20Demo&body=Hello%2C%0D%0A%0D%0AI%20am%20interested%20in%20a%20demo%20of%20Operafy%20ERP.%0D%0APlease%20share%20more%20details%20about%20the%20software.%0D%0A%0D%0AThank%20you."
+  className="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg bg-[#1769aa] px-5 text-sm font-semibold text-white transition-colors hover:bg-[#12588f]"
+>Request a demo <ArrowRight size={16} /></a>
         </div>
         <p className="mt-6 flex items-center justify-center gap-2 text-center text-[11px] text-[#89958b]"><ShieldCheck size={14} /> Local-first operations. Internet when you choose it.</p>
       </section>
