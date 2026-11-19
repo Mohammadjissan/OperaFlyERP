@@ -31,7 +31,11 @@ export default function Navbar() {
           ))}
         </div>
 
-        <a href="mailto:hello@operaflyerp.com?subject=Operafy%20ERP%20demo" className="hidden min-h-10 items-center gap-2 rounded-lg bg-[#1769aa] px-4 text-xs font-semibold text-white transition-colors hover:bg-[#12588f] md:inline-flex">
+        
+<a
+  href="mailto:mohammadjissankharadi@gmail.com?subject=Operafy%20ERP%20Demo&body=Hello%2C%0D%0A%0D%0AI%20am%20interested%20in%20a%20demo%20of%20Operafy%20ERP.%0D%0APlease%20share%20more%20details%20about%20the%20software.%0D%0A%0D%0AThank%20you."
+  className="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg bg-[#1769aa] px-5 text-sm font-semibold text-white transition-colors hover:bg-[#12588f]"
+>
           Request a demo <ArrowRight size={14} />
         </a>
 
